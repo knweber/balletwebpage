@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ballet Website</title>
+</head>
+<body>
+<form name="ballet" action="congrats.html" method="post">
+<h1><center><em><strong>Seattle Ballet Festival</strong></em></center></h1>
+<center><img src="http://static.guim.co.uk/sys-images/Observer/Columnist/Columnists/2015/3/20/1426870397250/swan-lake-royal-ballet-009.jpg" width="300" alt="Swan Lake photo"/></center>
+<p> <a href="http://static.guim.co.uk/sys-images/Observer/Columnist/Columnists/2015/3/20/1426870397250/swan-lake-royal-ballet-009.jpg" target="blank"><em>Steven McRae (Prince Siegfried) with the Bolshoiís Evgenia Obraztsova as Odette in Swan Lake </a> Photograph: Tristram Kenton </em> </p>
+<form name="practice" action="success.html" method="post">
+<div>
+<p>From April 20 through April 26, Seattle will be hosting its inaugural Annual Ballet Festival. Classical, neoclassical, and contemporary repertoire will be showcased.
+<p>Choreographers include:</p>
+  <ul>
+	<li>Marius Petipa</li>
+	<li>George Balanchine</li>
+	<li>Jerome Robbins</li>
+	<li>Peter Martins</li>
+	<li>Justin Peck</li>
+	<li>Agrippina Vaganova</li>
+</ul>
+</div>
+  <fieldset>
+    <div>
+    <label>Preferred Name</label>
+      <input type="text" name="personal-name" placeholder="Enter your preferred name">
+    </div>
+    <div>
+      <label>Which ballet would you like to see?</label>
+      <select name="ticketquantity">
+      	<option value="jewels">Jewels</option>
+      	<option value="nutcracker">Nutcracker</option>
+	<option value="swanlake">Swan Lake</option>
+      	<option value="sleepingbeauty">Sleeping Beauty</option>
+      	<option value="symphinc">Symphony in C</option>
+	<option value="giselle">Giselle</option>
+	<option value="serenade">Serenade</option>
+      </select>
+    </div>
+    <div>
+      <label>Enter date of performance for tickets:</label>
+      <input type="date" name="performancedate">
+     </div>
+    <div>
+      <label>Quantity of Tickets</label>
+      <select name="ticketquantity">
+      	<option value="one">1</option>
+      	<option value="two">2</option>
+      	<option value="three">3</option>
+      	<option value="four">4</option>
+      </select>
+    </div>
+    <div><label>Writing Prompt</label></div>
+    <textarea name="writingprompt"
+      rows="5" cols="40" placeholder="What is your preferred seating arrangement?"></textarea>
+    <div>
+    <input type="checkbox" name="cb-agree" value="agree">
+    I would like to purchase tickets
+    </div>
+</fieldset>
+<button type="submit">Place Order</button>
+</form>
+</body>
+</html>
