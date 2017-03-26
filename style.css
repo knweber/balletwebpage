@@ -1,3 +1,63 @@
+* {
+	font-family: "Book Antiqua";
+}
+
 body {
 	background: #FEF3F3;
+}
+
+fieldset {
+	margin: 0;
+	padding: 10,0,10,10;
+	width: 300px;
+	font-size: 90%;
+}
+
+button {
+	position: relative;
+	margin-left: 125px;
+	margin-top: 10px;
+}
+
+footer {
+	position: fixed;
+	margin: auto;
+}
+
+header {
+	position: fixed;
+	margin: auto;
+}
+
+h1 {
+	display: block;
+	position: center;
+	margin: auto;
+	font-size: 260%;
+	font-family: "Hoefler Text";
+	font-style: italic;
+}
+
+img {
+	display: block;
+	position: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#response {
+	text-align: center;
+	font-style: italic;
+}
+
+.swan {
+	position: center;
+	text-align: center;
+	font-size: small;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 80%;
+  }
 }
