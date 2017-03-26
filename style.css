@@ -11,11 +11,13 @@ fieldset {
 	padding: 10,0,10,10;
 	width: 300px;
 	font-size: 90%;
+	border-width: thick;
+	background: #FBF5F5;
 }
 
 button {
 	position: relative;
-	margin-left: 125px;
+	margin-left: 250px;
 	margin-top: 10px;
 }
 
@@ -36,6 +38,7 @@ h1 {
 	font-size: 260%;
 	font-family: "Hoefler Text";
 	font-style: italic;
+	text-align: center;
 }
 
 img {
@@ -43,6 +46,12 @@ img {
 	position: center;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+img.swan{
+	border-style: solid;
+	border-width: 10px;
+	color: white;
 }
 
 #response {
@@ -60,4 +69,33 @@ img {
   body {
     font-size: 80%;
   }
+}
+
+#thanks {
+	width: 275px;
+	text-align: center;
+	display: block;
+	margin: auto;
+	margin-top: 15px;
+	font-style: italic;
+}
+
+h2 {
+	display: block;
+	margin: auto;
+	margin-top: 15px;
+	text-align: center;
+}
+
+h1#congrats {
+	font-style: normal;
+}
+
+.page1 {
+	border-style: solid;
+	border-width: 10px;
+	background-image: url("buckeye_leaf_diamond_graywhite.jpg");
+	width: 325px;
+	margin-bottom: 15px;
+	color: #7D7D7D;
 }
