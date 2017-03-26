@@ -99,3 +99,7 @@ h1#congrats {
 	margin-bottom: 15px;
 	color: #7D7D7D;
 }
+
+a:visited {
+	color: red;
+}
