@@ -8,7 +8,7 @@ body {
 
 fieldset {
 	margin: 0;
-	padding: 10,0,10,10;
+	padding: 10px 0px 10px 10px;
 	width: 300px;
 	font-size: 90%;
 	border-width: thick;
